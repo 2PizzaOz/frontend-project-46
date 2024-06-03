@@ -1,0 +1,12 @@
+{"version": 2, "width": 215, "height": 18, "timestamp": 1717410370, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}}
+[0.13619, "o", "\u001b[?2004h\u001b]0;root@DESKTOP-E9BUARL: ~/frontend-project-46\u0007root@DESKTOP-E9BUARL:~/frontend-project-46# "]
+[0.667343, "o", "gendiff ./fixtures/file1.json ./fixtures/file2.json"]
+[1.015984, "o", "\r\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[Cclear\u001b[K"]
+[1.736536, "o", "\b\b\b\b\bgendiff ./fixtures/file1.json ./fixtures/file2.json"]
+[2.939029, "o", "\r\n\u001b[?2004l\r"]
+[3.005198, "o", "- follow:false\r\n"]
+[3.005608, "o", "  host:hexlet.io\r\n- proxy:123.234.53.22\r\n"]
+[3.005793, "o", "- timeout:50\r\n+ timeout:20\r\n"]
+[3.005891, "o", "+ verbose:true\r\n"]
+[3.009363, "o", "\u001b[?2004h\u001b]0;root@DESKTOP-E9BUARL: ~/frontend-project-46\u0007root@DESKTOP-E9BUARL:~/frontend-project-46# "]
+[5.41703, "o", "\u001b[?2004l\r\r\nexit\r\n"]
