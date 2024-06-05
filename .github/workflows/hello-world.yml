@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Hi
-        uses: make say hello
+        run: make say hello
