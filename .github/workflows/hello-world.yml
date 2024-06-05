@@ -9,6 +9,7 @@ jobs:
       - name: Hi
         run: make say hello
   test:
+    needs: [lint]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
