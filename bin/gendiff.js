@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { program } from 'commander';
 import fs from 'node:fs';
-import { test } from '../Proba.js';
+import { showeTheDiffer } from '../Proba.js';
 
 // import * as path from 'path';
 
@@ -19,7 +19,7 @@ program
 .argument('<filepath1>')
 .argument('<filepath2>')
 .option('-f, --format [type]', 'output format')
-.action((filepath1, filepath2) => test(filepath1, filepath2))
+.action((filepath1, filepath2) => showeTheDiffer(filepath1, filepath2))
 program.parse();
 
 // const options = program.opts();

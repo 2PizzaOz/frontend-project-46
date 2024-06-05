@@ -2,8 +2,8 @@ import { log } from 'node:console';
 import fs from 'node:fs';
 import _ from 'lodash';
 
-// const fileJson1 = './fixtures/file1.json'
-// const fileJsom2 = './fixtures/file2.json'
+// const fileJson1 = './file1.json'
+// const fileJsom2 = './file2.json'
 
 // const file1 =  JSON.parse(fs.readFileSync(fileJson1, 'utf8'))
 // const file2 =  JSON.parse(fs.readFileSync(fileJsom2, 'utf8'))
@@ -11,7 +11,8 @@ import _ from 'lodash';
 
 
 
-export const test = (fileJson1, fileJsom2) => {
+export const showeTheDiffer = (fileJson1, fileJsom2) => {
+let result = ""
 const file1 =  JSON.parse(fs.readFileSync(fileJson1, 'utf8'))
 const file2 =  JSON.parse(fs.readFileSync(fileJsom2, 'utf8'))
   const keySort = Object.keys({ ...file1, ...file2}); 
@@ -21,14 +22,15 @@ const file2 =  JSON.parse(fs.readFileSync(fileJsom2, 'utf8'))
     const val2 = file2[keys];
     if (val1 && val2) {
       if (val1 === val2 ) {
-        console.log(`  ${keys}:${val1}`)
-      } else {console.log(`- ${keys}:${val1}`), console.log(`+ ${keys}:${val2}`)};
-    } else {val1 !== undefined ? console.log(`- ${keys}:${val1}`) : [] || val2 !== undefined ? console.log(`+ ${keys}:${val2}`) : []};
+        result += `\n   ${keys}:${val1}`
+      } else {result += `\n - ${keys}:${val1}`, result += `\n + ${keys}:${val2}`};
+    } else {val1 !== undefined ? result += `\n - ${keys}:${val1}` : [] || val2 !== undefined ? result += `\n + ${keys}:${val2}` : []};
   }
+  console.log(result)
+ return result
 };
 
-
-
+//  showeTheDiffer('file1.json', 'file2.json')
 
 
 // console.log(` ${keys}:${val1}`) : console.log(`-${keys}:${val1}`)
