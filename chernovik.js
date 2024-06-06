@@ -1,12 +1,19 @@
-import fs from 'node:fs';
-import * as path from 'path';
-import { cwd } from 'node:process';
+// import checksTheFormat from "./Reading-files.js";
 
- const veyv = cwd()
 
-const resultVeyv = path.resolve('fixtures/file1.json');
+// const test = checksTheFormat('file2.yml');
 
-console.log(resultVeyv)
+
+
+// import fs from 'node:fs';
+// import * as path from 'path';
+// import { cwd } from 'node:process';
+
+//  const veyv = cwd()
+
+// const resultVeyv = path.resolve('fixtures/file1.json');
+
+// console.log(resultVeyv)
 
 // const file1 = './fixtures/file1.json'
 // try {
@@ -33,4 +40,9 @@ console.log(resultVeyv)
 
 // }
 //  parseFile(file1, file2)
+
+// import checksTheFormat from '../Reading-files.js';
+
+
+// checksTheFormat('file2.yml');
 
