@@ -6,5 +6,7 @@
 
 <a href="https://asciinema.org/a/tqvtWa1dVoOnHzlnMPb2bQMjy" target="_blank"><img src="https://asciinema.org/a/tqvtWa1dVoOnHzlnMPb2bQMjy.svg" /></a>
 
+<a href="https://asciinema.org/a/Gb28qdhlgsvP0aZUQKptgOJDL" target="_blank"><img src="https://asciinema.org/a/Gb28qdhlgsvP0aZUQKptgOJDL.svg" /></a>
+
 
 [![hello-world](https://github.com/2PizzaOz/frontend-project-46/actions/workflows/hello-world.yml/badge.svg)](https://github.com/2PizzaOz/frontend-project-46/actions/workflows/hello-world.yml)
