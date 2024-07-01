@@ -8,5 +8,10 @@
 
 <a href="https://asciinema.org/a/Gb28qdhlgsvP0aZUQKptgOJDL" target="_blank"><img src="https://asciinema.org/a/Gb28qdhlgsvP0aZUQKptgOJDL.svg" /></a>
 
+<a href="https://asciinema.org/a/QUYpXmyq6I8y5AG7sLjIC98qr" target="_blank"><img src="https://asciinema.org/a/QUYpXmyq6I8y5AG7sLjIC98qr.svg" /></a>
+
+<a href="https://asciinema.org/a/zW44VYO2Rowa5Piz30SwDkD1V" target="_blank"><img src="https://asciinema.org/a/zW44VYO2Rowa5Piz30SwDkD1V.svg" /></a>
+
+<a href="https://asciinema.org/a/Rv0u4CRPHdhAoYynpRlezmwvc" target="_blank"><img src="https://asciinema.org/a/Rv0u4CRPHdhAoYynpRlezmwvc.svg" /></a>
 
 [![hello-world](https://github.com/2PizzaOz/frontend-project-46/actions/workflows/hello-world.yml/badge.svg)](https://github.com/2PizzaOz/frontend-project-46/actions/workflows/hello-world.yml)
