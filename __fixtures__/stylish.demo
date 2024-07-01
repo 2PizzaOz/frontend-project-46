@@ -1,0 +1,9 @@
+{"version": 2, "width": 195, "height": 22, "timestamp": 1719838597, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}}
+[0.126426, "o", "\u001b[?2004h\u001b]0;root@DESKTOP-E9BUARL: ~/frontend-project-46/__fixtures__\u0007root@DESKTOP-E9BUARL:~/frontend-project-46/__fixtures__# "]
+[1.120581, "o", "npm run test"]
+[1.453691, "o", "\b\b\b\b\b\b\b\b\b\b\b\b\u001b[7Pclear"]
+[1.921083, "o", "\b\b\b\b\bgendiff -f plain fileTwo1.json fileTwo2.json"]
+[2.894552, "o", "\r\n\u001b[?2004l\r"]
+[2.97708, "o", "Property 'common.follow' WAS ADDED WITH VALUE: 'false'\r\nProperty 'common.setting2' WAS REMOVED\r\nProperty 'common.setting3' WAS UPDATED. FROM 'true' TO 'null'\r\nProperty 'common.setting4' WAS ADDED WITH VALUE: 'blah blah'\r\nProperty 'common.setting5' WAS ADDED WITH VALUE: [complex value]\r\nProperty 'common.setting6.doge.wow' WAS UPDATED. FROM '' TO 'so much'\r\nProperty 'common.setting6.ops' WAS ADDED WITH VALUE: 'vops'\r\nProperty 'group1.baz' WAS UPDATED. FROM 'bas' TO 'bars'\r\nProperty 'group1.nest' WAS UPDATED. FROM [complex value] TO 'str'\r\nProperty 'group2' WAS REMOVED\r\nProperty 'group3' WAS ADDED WITH VALUE: [complex value]\r\n"]
+[2.98029, "o", "\u001b[?2004h\u001b]0;root@DESKTOP-E9BUARL: ~/frontend-project-46/__fixtures__\u0007root@DESKTOP-E9BUARL:~/frontend-project-46/__fixtures__# "]
+[6.434518, "o", "\u001b[?2004l\r\r\nexit\r\n"]

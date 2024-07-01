@@ -1,0 +1,11 @@
+Property 'common.follow' WAS ADDED WITH VALUE: 'false'
+Property 'common.setting2' WAS REMOVED
+Property 'common.setting3' WAS UPDATED. FROM 'true' TO 'null'
+Property 'common.setting4' WAS ADDED WITH VALUE: 'blah blah'
+Property 'common.setting5' WAS ADDED WITH VALUE: [complex value]
+Property 'common.setting6.doge.wow' WAS UPDATED. FROM '' TO 'so much'
+Property 'common.setting6.ops' WAS ADDED WITH VALUE: 'vops'
+Property 'group1.baz' WAS UPDATED. FROM 'bas' TO 'bars'
+Property 'group1.nest' WAS UPDATED. FROM [complex value] TO 'str'
+Property 'group2' WAS REMOVED
+Property 'group3' WAS ADDED WITH VALUE: [complex value]
