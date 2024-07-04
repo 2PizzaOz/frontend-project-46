@@ -23,7 +23,7 @@ export default (data) => {
         return null;
       }
       if (node.type === 'changed') {
-        return `Property '${actualAcc}' was updated. from ${getValue(node.oldValue)} to ${getValue(node.newValue)}`;
+        return `Property '${actualAcc}' was updated. From ${getValue(node.oldValue)} to ${getValue(node.newValue)}`;
       }
       if (node.type === 'nested') {
         return `${iter(node.children, pathAcc)}`;
