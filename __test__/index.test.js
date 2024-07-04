@@ -19,6 +19,6 @@ test.each([
   [beforeYml, afterYml, plainFormat, makeDiffPath(plainFormat)],
   [beforeJson, afterJson, jsonFormat, makeDiffPath(jsonFormat)],
   [beforeYml, afterYml, jsonFormat, makeDiffPath(jsonFormat)],
-])('test (%s, %s, %s)', (before, after, format, diff) => {
+])('gendif (%s, %s, %s)', (before, after, format, diff) => {
   expect(gendif(before, after, format)).toEqual(diff);
 });
