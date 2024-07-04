@@ -2,7 +2,7 @@ import _ from 'lodash';
 
 const getValue = (file) => {
   if (!_.isObject(file)) {
-    const format = _.isString(file) ? `${file}` : `${file}`;
+    const format = _.isString(file) ? `'${file}'` : `${file}`;
     return format;
   }
   return '[complex value]';
